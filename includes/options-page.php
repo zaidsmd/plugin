@@ -10,5 +10,5 @@ function contact_form_page(){
     include_once MY_PLUGIN_PATH."/templates/contact_form_page.php";
 }
 function submissions_page(){
-
+    include_once MY_PLUGIN_PATH."/templates/submissions-page.php";
 }

@@ -1,0 +1,23 @@
+.contact-form__form {
+    padding: 2rem 1rem 2rem 1rem;
+}
+.contact-form__form form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.contact-form-input-container{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.form_response {
+    display: none;
+    padding: 1rem;
+}
+.form_response.success {
+    display: block;
+}
+.form_response.error {
+    display: block;
+}
